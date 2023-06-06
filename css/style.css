@@ -1,0 +1,18 @@
+:root{
+	--black-color: #2e2f42;
+	--blue-color: #4d5ae5;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	color: #434455;
+	background-color: #ffffff;
+}
+
+.logo{
+	color: var(--black-color);
+}
+
+.web{
+	color: var(--blue-color);
+}
