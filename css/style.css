@@ -1,6 +1,14 @@
 :root{
 	--black-color: #2e2f42;
 	--blue-color: #4d5ae5;
+	--white-color: #ffffff;
+	--logo-weight: 500;
+	--title-weight: 700;
+	--logo-size: 16px;
+	--logo-line-height: 24px;
+	--letter-spacing: 2%;
+	--text-align: center;
+	--title-size: 20px;
 }
 
 body{
@@ -11,8 +19,113 @@ body{
 
 .logo{
 	color: var(--black-color);
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 21px;
+	letter-spacing: 3%;
+	text-decoration: none;
 }
 
 .web{
 	color: var(--blue-color);
+}
+
+.category{
+	color: var(--black-color);
+	font-weight: var(--logo-weight);
+	font-size: var(--logo-size);
+	line-height: var(--logo-line-height);
+	letter-spacing: var(--letter-spacing);
+	text-decoration: none;
+}
+
+.address{
+	font-weight: 400;
+	font-size: var(--logo-size);
+	line-height: var(--logo-line-height);
+	letter-spacing: var(--letter-spacing);
+	text-decoration: none;
+	color: #434455;
+}
+
+.section-1{
+	background-color: var(--black-color);
+}
+
+.title-h1{
+	font-weight: var(--title-weight);
+	font-size: 56px;
+	line-height: 60px;
+	letter-spacing: var(--letter-spacing);
+	text-align: var(--text-align);
+	color: var(--white-color);
+}
+
+.first-button{
+	background-color: var(--blue-color);
+	color: var(--white-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.title-h2{
+	color: var(--black-color);
+	font-weight: var(--title-weight);
+	font-size: 36px;
+	line-height: 40px;
+	letter-spacing: var(--letter-spacing);
+	text-align: var(--text-align);
+}
+
+.title-h3-min{
+	color: var(--black-color);
+	font-weight: var(--logo-weight);
+	font-size: var(--title-size);
+	line-height: var(--logo-line-height);
+	letter-spacing: var(--letter-spacing);
+}
+
+.text-p-min{
+	line-height: var(--logo-line-height);
+	letter-spacing: var(--letter-spacing);
+}
+
+.section-3{
+	background-color: #f4f4f4;
+}
+
+.title-h3-max{
+	color: var(--black-color);
+	font-weight: var(--logo-weight);
+	font-size: var(--title-size);
+	line-height: var(--logo-line-height);
+	letter-spacing: var(--letter-spacing);
+	text-align: var(--text-align);
+}
+
+.text-p-max{
+	line-height: var(--logo-line-height);
+	letter-spacing: var(--letter-spacing);
+	text-align: var(--text-align);
+}
+
+.footer{
+	background-color: var(--black-color);
+}
+
+.footer-logo {
+	color: #f4f4f4;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 21px;
+	letter-spacing: 3%;
+	text-decoration: none;
+}
+
+.footer-text{
+	color: #f4f4f4;
+	font-size: var(--logo-size);
+	line-height: var(--logo-line-height);
+	letter-spacing: var(--letter-spacing);
 }
