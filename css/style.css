@@ -47,12 +47,12 @@ body{
 	color: var(--black-color);
 }
 
-.link-1{
+.link-first{
 	color: var(--black-color);
 }
 
-.link-1:hover,
-.link-1:focus{
+.link-first:hover,
+.link-first:focus{
 	color: #404bbf;
 }
 
