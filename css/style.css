@@ -171,3 +171,15 @@ body{
 	color: var(--white-color);
 	background-color: #404bbf;
 }
+
+.h-second{
+	font-weight: var(--logo-weight);
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--black-color);
+}
+
+.portfolio-p{
+	font-size: 16px;
+}
