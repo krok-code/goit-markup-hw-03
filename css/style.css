@@ -129,8 +129,13 @@ body{
 	background-color: #f4f4fd;
 }
 
-.li{
+.class-li{
 	background-color: #ffffff;
+	font-weight: var(--logo-weight);
+	font-size: var(--title-size);
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--black-color);
 }
 
 .title-hthird-max{
