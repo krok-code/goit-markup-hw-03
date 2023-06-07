@@ -44,12 +44,28 @@ body{
 	font-size: var(--logo-size);
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: var(--black-color)
+	color: var(--black-color);
 }
 
 .list-1:hover,
 .list-1:focus{
 	color: #404bbf;
+}
+
+.list-2{
+	font-weight: var(--logo-weight);
+	font-size: var(--logo-size);
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--black-color);
+}
+
+.list-3{
+	font-weight: var(--logo-weight);
+	font-size: var(--logo-size);
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--black-color);
 }
 
 .address{
