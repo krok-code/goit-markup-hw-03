@@ -44,6 +44,7 @@ body{
 	font-size: var(--logo-size);
 	line-height: 1.5;
 	letter-spacing: 0.02em;
+	color: var(--black-color)
 }
 
 .list-1:hover,
