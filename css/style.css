@@ -175,9 +175,9 @@ body{
 .h-second{
 	font-weight: var(--logo-weight);
 	font-size: 20px;
-	line-height: 1.2;
+	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: var(--black-color);
+	color: #434455;
 }
 
 .portfolio-p{
