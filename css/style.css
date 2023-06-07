@@ -79,24 +79,36 @@ body{
 .title-h1{
 	font-weight: var(--title-weight);
 	font-size: 56px;
-	line-height: 60px;
-	letter-spacing: var(--letter-spacing);
+	line-height: 1.07;
+	letter-spacing: 0.02em;
 	text-align: var(--text-align);
 	color: var(--white-color);
 }
 
 .first-button{
 	background-color: var(--blue-color);
+	font-family: 'Roboto', sans-serif;
+	font-weight: var(--logo-weight);
+	font-size: var(--logo-size);
+	line-height: 1.5;
+	letter-spacing: 0.04em;
 	color: var(--white-color);
+}
+
+.first-button:hover,
+.first-button:focus{
+	background-color: #404bbf;
+	cursor: pointer;
 }
 
 .title-h2{
 	color: var(--black-color);
 	font-weight: var(--title-weight);
 	font-size: 36px;
-	line-height: 40px;
-	letter-spacing: var(--letter-spacing);
+	line-height: 1.11;
+	letter-spacing: 0.02em;
 	text-align: var(--text-align);
+	text-transform: capitalize;
 }
 
 .title-h3-min{
@@ -104,16 +116,20 @@ body{
 	font-weight: var(--logo-weight);
 	font-size: var(--title-size);
 	line-height: var(--logo-line-height);
-	letter-spacing: var(--letter-spacing);
+	letter-spacing: 0.02em;
 }
 
 .text-p-min{
 	line-height: var(--logo-line-height);
-	letter-spacing: var(--letter-spacing);
+	letter-spacing: 0.02em;
 }
 
 .section-3{
-	background-color: #f4f4f4;
+	background-color: #f4f4fd;
+}
+
+.li{
+	background-color: #ffffff;
 }
 
 .title-h3-max{
@@ -121,13 +137,13 @@ body{
 	font-weight: var(--logo-weight);
 	font-size: var(--title-size);
 	line-height: var(--logo-line-height);
-	letter-spacing: var(--letter-spacing);
+	letter-spacing: 0.02em;
 	text-align: var(--text-align);
 }
 
 .text-p-max{
 	line-height: var(--logo-line-height);
-	letter-spacing: var(--letter-spacing);
+	letter-spacing: 0.02em;
 	text-align: var(--text-align);
 }
 
