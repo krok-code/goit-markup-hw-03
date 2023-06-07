@@ -1,4 +1,5 @@
 :root{
+	--white-color-first: #f4f4fd;
 	--black-color: #2e2f42;
 	--blue-color: #4d5ae5;
 	--white-color: #ffffff;
@@ -133,15 +134,6 @@ body{
 	background-color: #ffffff;
 }
 
-.title-hthird-max{
-	color: var(--black-color);
-	font-weight: var(--logo-weight);
-	font-size: var(--title-size);
-	line-height: var(--logo-line-height);
-	letter-spacing: 0.02em;
-	text-align: var(--text-align);
-}
-
 .text-p-max{
 	line-height: var(--logo-line-height);
 	letter-spacing: 0.02em;
@@ -161,4 +153,21 @@ body{
 	font-size: var(--logo-size);
 	line-height: var(--logo-line-height);
 	letter-spacing: 0.02em;
+}
+
+.button{
+	font-family: 'Roboto', sans-serif;
+	font-weight: var(--logo-weight);
+	font-size: var(--logo-size);
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	color: var(--blue-color);
+	background-color: var(--white-color-first);
+	cursor: pointer;
+}
+
+.button:hover,
+.button:focus{
+	color: var(--white-color);
+	background-color: #404bbf;
 }
