@@ -47,6 +47,10 @@ body{
 	color: var(--black-color);
 }
 
+.link-1{
+	color: var(--black-color);
+}
+
 .link-1:hover,
 .link-1:focus{
 	color: #404bbf;
