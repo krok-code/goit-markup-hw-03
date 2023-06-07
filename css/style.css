@@ -72,11 +72,11 @@ body{
 	color: #404bbf;
 }
 
-.section-1{
+.section-first{
 	background-color: var(--black-color);
 }
 
-.title-h1{
+.title-h-first{
 	font-weight: var(--title-weight);
 	font-size: 56px;
 	line-height: 1.07;
@@ -101,7 +101,7 @@ body{
 	cursor: pointer;
 }
 
-.title-h2{
+.title-h-second{
 	color: var(--black-color);
 	font-weight: var(--title-weight);
 	font-size: 36px;
@@ -111,7 +111,7 @@ body{
 	text-transform: capitalize;
 }
 
-.title-h3-min{
+.title-h-third-min{
 	color: var(--black-color);
 	font-weight: var(--logo-weight);
 	font-size: var(--title-size);
@@ -124,7 +124,8 @@ body{
 	letter-spacing: 0.02em;
 }
 
-.section-3{
+
+.section-fourth{
 	background-color: #f4f4fd;
 }
 
