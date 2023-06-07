@@ -18,35 +18,53 @@ body{
 }
 
 .logo{
-	color: var(--black-color);
+	color: var(--blue-color);
 	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
 	font-size: 18px;
-	line-height: 21px;
-	letter-spacing: 3%;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.link{
 	text-decoration: none;
 }
 
-.web{
-	color: var(--blue-color);
+.studio{
+	color: var(--black-color);
 }
 
-.category{
-	color: var(--black-color);
+.list{
+	list-style: none;
+}
+
+.list-1{
 	font-weight: var(--logo-weight);
 	font-size: var(--logo-size);
-	line-height: var(--logo-line-height);
-	letter-spacing: var(--letter-spacing);
-	text-decoration: none;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
+
+.list-1:hover,
+.list-1:focus{
+	color: #404bbf;
 }
 
 .address{
-	font-weight: 400;
+	font-style: normal;
+}
+
+.mail-tel{
 	font-size: var(--logo-size);
 	line-height: var(--logo-line-height);
-	letter-spacing: var(--letter-spacing);
-	text-decoration: none;
+	letter-spacing: 0.02em;
 	color: #434455;
+}
+
+.mail-tel:hover,
+.mail-tel:focus{
+	color: #404bbf;
 }
 
 .section-1{
@@ -65,7 +83,6 @@ body{
 .first-button{
 	background-color: var(--blue-color);
 	color: var(--white-color);
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .title-h2{
