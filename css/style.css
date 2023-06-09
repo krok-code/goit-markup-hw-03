@@ -20,6 +20,13 @@ body {
   background-color: var(--white-color);
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .logo {
   color: var(--blue-color);
   font-family: 'Raleway', sans-serif;
