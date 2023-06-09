@@ -24,11 +24,8 @@ body {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.page-header {
-  display: flex;
-}
-
 .container {
+  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -103,9 +100,6 @@ body {
   background-color: var(--black-color);
   padding: 188px 0;
   display: flex;
-}
-
-.section-div-first {
 }
 
 .title-h-first {
