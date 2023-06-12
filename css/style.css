@@ -144,7 +144,17 @@ img {
 }
 
 .visually-hidden {
-  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .title-h-second {
@@ -166,7 +176,7 @@ img {
   gap: 24px;
 }
 
-.li {
+.li-one {
   width: calc((100% - 72px) / 4);
 }
 
@@ -230,6 +240,7 @@ img {
 }
 
 .footer-logo {
+  display: inline-block;
   color: var(--blue-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -238,7 +249,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
-  display: inline-block;
   margin-bottom: 16px;
 }
 
