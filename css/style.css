@@ -143,7 +143,7 @@ img {
   padding: 120px 0;
 }
 
-.hidden {
+.visually-hidden {
   visibility: hidden;
 }
 
@@ -226,6 +226,20 @@ img {
 
 .footer {
   background-color: var(--black-color);
+  padding: 100px 0;
+}
+
+.footer-logo {
+  color: var(--blue-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-studio {
@@ -237,6 +251,7 @@ img {
   font-size: var(--logo-size);
   line-height: var(--logo-line-height);
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 .button {
