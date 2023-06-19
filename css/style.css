@@ -143,20 +143,6 @@ img {
   padding: 120px 0;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .title-h-second {
   color: var(--black-color);
   font-weight: var(--title-weight);
@@ -299,6 +285,7 @@ img {
 
 .portfolio-section-one {
   padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .portfolio-list {
@@ -331,4 +318,18 @@ img {
 }
 
 .portfolio-link {
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
