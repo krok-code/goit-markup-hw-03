@@ -83,6 +83,10 @@ ul {
   color: var(--black-color);
 }
 
+.list-second {
+  gap: 40px;
+}
+
 .link-first {
   color: var(--black-color);
 }
