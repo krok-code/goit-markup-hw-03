@@ -86,6 +86,9 @@ ul {
 .list-second {
   gap: 40px;
 }
+.list-third {
+  gap: 24px;
+}
 
 .link-first {
   color: var(--black-color);
