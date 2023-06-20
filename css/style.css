@@ -233,11 +233,9 @@ ul {
 .footer {
   background-color: var(--black-color);
   padding: 100px 0;
-  display: inline-block;
 }
 
 .footer-logo {
-  display: inline-block;
   color: var(--blue-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -247,6 +245,10 @@ ul {
   text-transform: uppercase;
   margin-right: 76px;
   margin-bottom: 16px;
+}
+
+.display {
+  display: inline-block;
 }
 
 .footer-studio {
