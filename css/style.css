@@ -84,7 +84,7 @@ ul {
 }
 
 .list-second {
-  gap: 40px;
+  gap: 24px;
 }
 
 .link-first {
@@ -179,7 +179,7 @@ ul {
   width: calc((100% - 72px) / 4);
 }
 
-.li-two {
+.lis .li-two {
   width: calc((100% - 48px) / 3);
 }
 
