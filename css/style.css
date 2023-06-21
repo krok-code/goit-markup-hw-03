@@ -250,6 +250,10 @@ ul {
   padding: 100px 0;
 }
 
+.container-footer {
+  margin-left: 156px;
+}
+
 .footer-logo {
   color: var(--blue-color);
   font-family: 'Raleway', sans-serif;
@@ -263,6 +267,10 @@ ul {
 
 .display {
   display: inline-block;
+}
+
+.footer-link {
+  text-decoration: none;
 }
 
 .footer-studio {
