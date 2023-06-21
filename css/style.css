@@ -332,14 +332,29 @@ ul {
 }
 
 .portfolio-button {
+  display: flex;
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  color: var(--blue-color);
+  background-color: var(--white-color-first);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: var(--logo-size);
+  line-height: var(--logo-line-height);
+  letter-spacing: 4%;
 }
 
 .portfolio-button:hover,
 .portfolio-button:focus {
+  display: flex;
+  background-color: var(--background-color-button);
   border: 1px solid transparent;
+  color: var(--white-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  font-weight: 500;
 }
 
 .portfolio-list-second {
@@ -377,4 +392,5 @@ ul {
   margin-bottom: 8px;
   margin-top: 0;
   color: var(--black-color);
+  font-size: 20px;
 }
